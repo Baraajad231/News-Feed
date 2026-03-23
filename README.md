@@ -12,19 +12,19 @@ Here is a visual tour of the `NewsPulse` application, showcasing its clean desig
 
 Displays the latest top headlines with intuitive category filtering (General, Technology, Business, etc.) and a professional, card-based layout.
 
-![NewsPulse Main Feed](/assets/screenshot-1.png)
+![NewsPulse Main Feed](assets/screenshoot-1.png)
 
 ### 2. Live Search with Debouncing
 
 Experience instant searching. The integrated **Lodash Debounce** technique ensures API calls are optimized, fetching results only after you finish typing.
 
-![NewsPulse Live Search](./assets/screenshot-2.png)
+![NewsPulse Live Search](assets/screenshoot-2.png)
 
 ### 3. Responsive Design & Pagination
 
 Whether on mobile or desktop, the UI, built with **Material UI (MUI)**, adapts beautifully. Dynamic pagination lets you navigate pages smoothly.
 
-![NewsPulse Responsive UI](./assets/screenshot-3.png)
+![NewsPulse Responsive UI](assets/screenshoot-3.png)
 
 ---
 
