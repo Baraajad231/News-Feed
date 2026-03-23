@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import NewsArticle from "./newsArticle";
+import NewsArticle from "./NewsArticle";
 import LoadingArticle from "./LoadingArticle";
 
 const NewsFeed = ({ articles, loading }) => {
