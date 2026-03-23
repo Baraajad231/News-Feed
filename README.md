@@ -12,7 +12,7 @@ Here is a visual tour of the `NewsPulse` application, showcasing its clean desig
 
 Displays the latest top headlines with intuitive category filtering (General, Technology, Business, etc.) and a professional, card-based layout.
 
-![NewsPulse Main Feed](./assets/screenshot-1.png)
+![NewsPulse Main Feed](/assets/screenshot-1.png)
 
 ### 2. Live Search with Debouncing
 
