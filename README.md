@@ -1,18 +1,83 @@
-# React + Vite
+# 📰 NewsPulse - Modern Real-Time News Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive News Feed application built with **React** and **Vite**. `NewsPulse` fetches live headlines globally using the NewsAPI, delivering a seamless and optimized user experience through advanced React patterns.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 App Screenshots
 
-## React Compiler
+Here is a visual tour of the `NewsPulse` application, showcasing its clean design and core features.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 1. Main Feed & Categories
 
-Note: This will impact Vite dev & build performances.
+Displays the latest top headlines with intuitive category filtering (General, Technology, Business, etc.) and a professional, card-based layout.
 
-## Expanding the ESLint configuration
+![NewsPulse Main Feed](./screenshot-1.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Live Search with Debouncing
+
+Experience instant searching. The integrated **Lodash Debounce** technique ensures API calls are optimized, fetching results only after you finish typing.
+
+![NewsPulse Live Search](./screenshot-2.png)
+
+### 3. Responsive Design & Pagination
+
+Whether on mobile or desktop, the UI, built with **Material UI (MUI)**, adapts beautifully. Dynamic pagination lets you navigate pages smoothly.
+
+![NewsPulse Responsive UI](./screenshot-3.png)
+
+---
+
+## ✨ Key Features
+
+- **Real-Time News:** Fetches up-to-the-minute headlines from a diverse range of sources.
+- **Optimized Searching:** Uses **Lodash Debounce** to minimize API requests while typing in the search bar.
+- **Advanced Performance:** Implements `AbortController` in React hooks to cancel pending/stale requests, preventing race conditions.
+- **Dynamic Pagination:** Effortless navigation between news pages with automated "Next/Previous" button logic.
+- **Category Filtering:** Quick-switch tabs for various news segments like Technology, Business, Sports, and Science.
+- **Responsive UI/UX:** A sleek, professional design crafted with **Material UI (MUI)**, fully optimized for all screen sizes.
+- **Professional React Patterns:** Expert use of hooks like `useCallback`, `useEffect`, `useState`, and `useRef` for optimal state and memory management.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Hooks)
+- **Build Tool:** Vite
+- **UI Library:** Material UI (MUI)
+- **State Management:** React useState, useCallback & useRef
+- **Utilities:** Lodash (Debounce)
+- **API:** NewsAPI.org
+
+## 📦 Installation & Setup
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/Baraajad231/News-Feed.git](https://github.com/Baraajad231/News-Feed.git)
+    cd News-Feed
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Environment Variables:**
+    Create a `.env` file in the root directory and add your NewsAPI key:
+
+    ```env
+    VITE_NEWS_API_KEY=your_api_key_here
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+---
+
+Created with ❤️ by [Baraa Jad]
